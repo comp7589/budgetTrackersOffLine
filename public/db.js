@@ -71,7 +71,7 @@ function checkDataBase() {
     }
 };
 
-window.addEventListener("online", checkDataBase);
+window.addEventListener("online", checkDataBase());
 
 //create saveRecord() to "store.add", plus request.updateNeeded 
 // request.onError
